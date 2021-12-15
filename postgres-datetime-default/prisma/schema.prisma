@@ -1,0 +1,9 @@
+datasource db {
+  provider = "postgres"
+  url = env("TEST_DATABASE_URL")
+}
+
+model Boom {
+  id Int @id
+  birthdate DateTime @default(dbgenerated("'1920-01-01'"))
+}
