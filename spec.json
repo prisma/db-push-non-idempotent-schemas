@@ -13,7 +13,7 @@
 				"skipped": false
 		},
 		{
-				"name": "postgres_schema_with_ignores_and_",
+				"name": "postgres_schema_with_ignore",
 				"provider": "postgresql",
 				"url": "https://raw.githubusercontent.com/prisma/db-push-non-idempotent-schemas/main/good-schemas/postgres-ignore.prisma",
 				"skipped": false
@@ -21,7 +21,7 @@
 		{
 				"name": "sqlite_chinook",
 				"provider": "sqlite",
-				"url": "https://raw.githubusercontent.com/prisma/database-schema-examples/main/sqlite/sample_schemas/chinook.prisma",
+				"url": "https://github.com/prisma/db-push-non-idempotent-schemas/blob/main/good-schemas/chinook_sqlite.prisma",
         "skipped": false
 		},
 		{
