@@ -2,12 +2,11 @@
 // Place it in `<repo_root>/db/chinook.db`.
 datasource db {
     provider = "sqlite"
-    url      = "file:./db/chinook.db?connection_limit=5&socket_timeout=20"
+    url      = env("DATABASE_URL")
 }
 
 generator js {
     provider        = "prisma-client-js"
-    previewFeatures = ["mongodb", "interactiveTransactions"]
 }
 
 model Album {
