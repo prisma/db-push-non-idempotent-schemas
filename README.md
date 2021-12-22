@@ -7,5 +7,5 @@ For each schema:
 ## Utility for verifying the URLs in the challenge spec.json
 
 ```bash
-jq -r '.schemas | .[] | .url' schemas.json | xargs --max-lines=1 curl --no-progress-meter -o /dev/null -w '%{http_code}\n’
+jq -r '.schemas | .[] | .url' schemas.json | xargs --max-lines=1 curl --no-progress-meter -o /dev/null -w '%{http_code}\n'
 ```

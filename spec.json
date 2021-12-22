@@ -1,0 +1,40 @@
+{
+	"schemas": [
+		{
+				"name": "postgres_datetime_default",
+		    "provider": "postgresql",
+        "url": "https://raw.githubusercontent.com/prisma/db-push-non-idempotent-schemas/main/postgres-datetime-default/prisma/schema.prisma",
+				"skipped": false
+		},
+		{
+				"name": "postgres_chinook",
+				"provider": "postgresql",
+				"url": "https://raw.githubusercontent.com/prisma/db-push-non-idempotent-schemas/main/good-schemas/chinook_postgres.prisma",
+				"skipped": false
+		},
+		{
+				"name": "postgres_schema_with_ignores_and_",
+				"provider": "postgresql",
+				"url": "https://raw.githubusercontent.com/prisma/db-push-non-idempotent-schemas/main/good-schemas/postgres-ignore.prisma",
+				"skipped": false
+		},
+		{
+				"name": "sqlite_chinook",
+				"provider": "sqlite",
+				"url": "https://raw.githubusercontent.com/prisma/database-schema-examples/main/sqlite/sample_schemas/chinook.prisma",
+        "skipped": false
+		},
+		{
+				"name": "sqlite_datetime_default",
+				"provider": "sqlite",
+				"url": "https://raw.githubusercontent.com/prisma/db-push-non-idempotent-schemas/main/sqlite-datetime-default/prisma/schema.prisma",
+        "skipped": false
+		},
+		{
+				"name": "sqlite_unsupported_text",
+				"provider": "sqlite",
+				"url": "https://raw.githubusercontent.com/prisma/db-push-non-idempotent-schemas/main/sqlite-unsupported-text/prisma/schema.prisma",
+        "skipped": false
+		}
+	]
+}

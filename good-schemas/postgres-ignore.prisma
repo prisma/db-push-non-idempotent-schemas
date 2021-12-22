@@ -1,6 +1,6 @@
 datasource test {
     provider = "postgresql"
-    url = "postgresql://"
+    url = env("DATABASE_URL")
 }
 
 model ModelA {
