@@ -1,0 +1,16 @@
+datasource test {
+    provider = "postgresql"
+    url = "postgresql://"
+}
+
+model ModelA {
+  id Int   @id
+  b  Int   @ignore
+  c  Int   @unique @ignore  // required + unique                           => client api adjustment?
+  e  Int   @unique @default(1) @ignore // unique + required + default      => client api adjustment?
+  f  Int   @default(1) @ignore  //                                         => client api adjustment?
+  g  Int?  @unique @ignore
+  h  Int?  @unique @default(1) @ignore //                                  => client api adjustment?
+  i  Int[] @unique @ignore      //                                         => client api adjustment?
+}
+
