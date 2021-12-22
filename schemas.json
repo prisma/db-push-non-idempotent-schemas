@@ -1,0 +1,28 @@
+{
+	"schemas": [
+		{
+				"name": "postgres_datetime_default",
+		    "provider": "postgresql",
+        "url": "https://raw.githubusercontent.com/prisma/db-push-non-idempotent-schemas/main/postgres-datetime-default/prisma/schema.prisma",
+				"skipped": false
+		},
+		{
+				"name": "sqlite_chinook",
+				"provider": "sqlite",
+				"url": "https://raw.githubusercontent.com/prisma/database-schema-examples/main/sqlite/sample_schemas/chinook.prisma",
+        "skipped": false
+		},
+		{
+				"name": "sqlite_datetime_default",
+				"provider": "sqlite",
+				"url": "https://raw.githubusercontent.com/prisma/db-push-non-idempotent-schemas/main/sqlite-datetime-default/prisma/schema.prisma",
+        "skipped": false
+		},
+		{
+				"name": "sqlite_unsupported_text",
+				"provider": "sqlite",
+				"url": "https://raw.githubusercontent.com/prisma/db-push-non-idempotent-schemas/main/sqlite-unsupported-text/prisma/schema.prisma",
+        "skipped": false
+		}
+	]
+}
